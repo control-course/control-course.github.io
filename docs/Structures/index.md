@@ -1,3 +1,0 @@
-# Structures
-
-Example homepage

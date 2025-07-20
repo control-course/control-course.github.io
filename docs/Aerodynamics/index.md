@@ -1,3 +1,0 @@
-# Aerodynamics
-
-Example homeage
