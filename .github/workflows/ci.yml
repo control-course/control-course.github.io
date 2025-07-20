@@ -25,7 +25,7 @@ jobs:
           pip install mkdocs-literate-nav
           pip install mkdocs-glightbox
           pip install mkdocs-git-revision-date-localized-plugin
-          pip install mkdocs-implicit-index
+          pip install mkdocs-section-index
       - name: Build and deploy
         run: |
           mkdocs build
