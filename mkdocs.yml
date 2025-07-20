@@ -1,4 +1,7 @@
-site_name: 'Bristol Flight Lab docs'
+site_name: AVDASI 2 Documentation
+site_url: https://avdasi2.github.io/docs/
+repo_url: https://github.com/AVDASI2/docs
+
 theme: 
   name: material
   logo: assets/logo.png
@@ -13,43 +16,28 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
   features:
-  - navigation.tracking
-  - navigation.instant
-  - navigation.search
-  - navigation.search.highlight
-  - navigation.search.suggestions
-  - navigation.search.suggestions.highlight
-  - content.tabs.link
-  - content.code.annotation
-  - content.code.copy
-  - content.code.expand
-  - content.code.highlight
-  - content.code.tabs
-  - content.code.toggle
-  - content.code.wrap
-  - content.code.include
-  - content.code.include.highlight
-  - content.code.include.tabs
-  - content.code.include.toggle
-  - content.code.include.wrap
-  - content.code.include.tabs
-  - navigation.instant.progress
-  - navigation.instant.preview
-  - navigation.footer
-  language: en
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+
 plugins:
   - search
   - literate-nav:
-       nav_file: index.md
-       implicit_index: true
+       nav_file: _index.md
   - glightbox
   - git-revision-date-localized:
-      fallback_to_build_date: true
+      enable_creation_date: true
+  - implicit-index
+
+nav:
+  - Home: index.md
+  - Avionics: Avionics/
+  - Aerodynamics: Aerodynamics/
+  - Structures: Structures/
+
 markdown_extensions:
-  - codehilite
-  - pymdownx.highlight:
-      linenums: true
-      use_pygments: true
+  - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.snippets
   - pymdownx.tabbed
