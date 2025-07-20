@@ -1,0 +1,78 @@
+site_name: 'AVDASI 2 docs'
+theme: 
+  name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - scheme: flightlab
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: flightlab_dark
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+  - navigation.tracking
+  - navigation.instant
+  - navigation.search
+  - navigation.search.highlight
+  - navigation.search.suggestions
+  - navigation.search.suggestions.highlight
+  - content.tabs.link
+  - content.code.annotation
+  - content.code.copy
+  - content.code.expand
+  - content.code.highlight
+  - content.code.tabs
+  - content.code.toggle
+  - content.code.wrap
+  - content.code.include
+  - content.code.include.highlight
+  - content.code.include.tabs
+  - content.code.include.toggle
+  - content.code.include.wrap
+  - content.code.include.tabs
+  - navigation.instant.progress
+  - navigation.instant.preview
+  - navigation.footer
+  language: en
+plugins:
+  - search
+  - literate-nav:
+       nav_file: index.md
+       implicit_index: true
+  - glightbox
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+markdown_extensions:
+  - codehilite
+  - pymdownx.highlight:
+      linenums: true
+      use_pygments: true
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.tasklist
+  - pymdownx.arithmatex
+  - pymdownx.keys
+  - pymdownx.emoji
+  - pymdownx.mark
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/UoBFlightLab
+
