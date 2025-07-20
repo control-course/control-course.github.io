@@ -6,15 +6,15 @@ Your Radio Control System will be centered ariound the Taranis X9 Lite. It uses 
 
 [Controller Manual (frsky-rc.com)](https://www.frsky-rc.com/product/taranis-x9-lite/)
 
-The Controller communicates to the cube using the trasmitter.
+The Controller communicates to the cube using the trasmitter which is an Archer R6.
 
-IMAGE OF TRANSMITTER
+![Transmitter](assets/Transmitter.jpg)
+
+[Transmitter Manual (frsky-rc.com)](https://www.frsky-rc.com/wp-content/uploads/Downloads/Manual/ARCHER%20R6/ARCHER%20R6-Manual.pdf)
 
 ## Set up Transmitter
 
-To connect the Transmitter to your controller you need to click the button then the other button.
-
-Hold until it connects and blinks light and tada connected.
+To connect the Controller to the Transmitter, follow the instructions from this [guide (frsky-rc.com)](https://www.frsky-rc.com/wp-content/uploads/Downloads/Manual/%E2%80%9CHow%20to%E2%80%9D%20about%20ACCESS%20receiver.pdf). 
 
 ## Set up Channels
 
