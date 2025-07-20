@@ -1,1 +1,1 @@
-MkDocs for the AVDASI 2 course. 
+MkDocs for the AVDASI 2 course.
