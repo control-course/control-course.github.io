@@ -28,7 +28,7 @@ plugins:
   - glightbox
   - git-revision-date-localized:
       enable_creation_date: true
-  - implicit-index
+  - section-index
 
 nav:
   - Home: index.md
