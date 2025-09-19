@@ -47,6 +47,7 @@ plugins:
       fallback_to_build_date: true
 markdown_extensions:
   - codehilite
+  - footnotes
   - pymdownx.highlight:
       linenums: true
       use_pygments: true
