@@ -1,34 +1,33 @@
 # START HERE
 
 !!! abstract
-These docs take you from zero to a minimum viable product that just about meets the Avionics criterial in the requirements spec, allowing students to take things from there in any direction that they wish.
+  These docs take you from zero to a minimum viable product that just about meets the Avionics criterial in the requirements spec, allowing students to take things from there in any direction that they wish.
 
 !!! note
-Many links are to external open-source resources that you should follow - these aren't duplicated here because 
+  Much of what we do references external open-source resources that you should follow - these aren't duplicated here as they're updated frequently elsewhere. If you encounter any inconsistencies in our docs please [raise an issue](https://github.com/AVDASI2/docs/issues) or even better [submit a pull request](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) with a correction.
 
-!!! tip "When in doubt consult the [ardupilot.org](ardupilot.org) website."
+## Getting started
 
-!!! abstract "The docs will walk you through all the necessary subcomponents of your Avionics system."
+If you're just starting out, head to the [step-by-step guide](stepbystep).
 
-    The Cube is your main flight computer, you will be guided on how to plug it in and what all its gadgets do. 
+## Quick links
 
-    Mission Planner is a software that lets you do your initial setup, you'll be shown how to connect to the cube, configure parameters, and set up servos. 
+If you've got your minimal system working then here are links to internal and external docs all in one place.
 
-    PyMAVLink is the communication protocol used in your custom GCS. 
+### Internal docs
 
-    The Wifi and RC sections show you how to set up the necessary telemtry systems. 
+- [Cube Information](cube)
+- [Mission Planner](missionplanner)
+- [PyMAVLink](pymavlink)
+- [Wifi](wifi)
+- [RC](rc)
+- [I2C & LUA](i2clua)
+- [Data Logging](datalogging)
+- [Example Code](examplecode)
 
-    I2C & LUA section gives you a quick runthrough on how to write onboard code for the Cube and set up sensor communication. 
- 
-    Data Logging is a vital component of your system, necesarry for the other subteams in your company that rely on the test results, you'll be shown various ways to store, extract, and postprocess data from the Cube.
+### External docs
 
-    The example code section is a series of scripts written to demonstrate a minimum viable ground station, carefully crafted by master coders for you to use as a basis for your own development.
-
-- [Cube Information](Cube-Information.md)
-- [Mission Planner](Mission-Planner.md)
-- [PyMAVLink](PyMavlink.md)
-- [Wifi](Wifi.md)
-- [RC](RC.md)
-- [I2C & LUA](I2C&LUA.md)
-- [Data Logging](Data-Logging.md)
-- [Example Code](Example-code.md)
+- Cube Orange flight controller [CubePilot docs](https://docs.cubepilot.org/user-guides/autopilot/the-cube) / [ardupilot docs](https://ardupilot.org/copter/docs/common-thecubeorange-overview.html)
+- [Mission Planner](https://ardupilot.org/planner/index.html) ground station software
+- [Kahuna](https://beyond-robotix.gitbook.io/docs/kahuna/quick-start-guide) wifi module / [Ardupilot ESP8266 telemetry](https://ardupilot.org/plane/docs/common-esp8266-telemetry.html)
+- PyMAVLink and [Ardupilot MAVLink command reference](https://ardupilot.org/dev/docs/mavlink-commands.html)
