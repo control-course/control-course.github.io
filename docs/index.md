@@ -25,4 +25,4 @@ This MkDocs is configured to use [mkdocs-literate-nav](https://oprypin.github.io
 - [Aerodynamics](Aerodynamics/)
 - [Structures](Structures/)
 
-[^1] Aerospace Vehicle Design And Systems Integration
+[^1]: Aerospace Vehicle Design And Systems Integration
