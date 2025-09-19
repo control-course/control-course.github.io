@@ -30,4 +30,3 @@ Most links are to external open-source resources from which you should be able t
 - [I2C & LUA](I2C&LUA.md)
 - [Data Logging](Data-Logging.md)
 - [Example Code](Example-code.md)
-- [Pressure Sensor PDF](pressure.md)
