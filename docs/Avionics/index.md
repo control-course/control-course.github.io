@@ -1,4 +1,4 @@
-# Avionics landing page
+# Avionics
 
 !!! abstract
 

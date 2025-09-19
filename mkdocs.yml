@@ -20,6 +20,9 @@ theme:
   - navigation.search.highlight
   - navigation.search.suggestions
   - navigation.search.suggestions.highlight
+  - navigation.tabs
+  - navigation.sections
+  - navigation.indexes
   - content.tabs.link
   - content.code.annotation
   - content.code.copy
@@ -81,7 +84,7 @@ extra:
 nav:
   - Home: index.md
   - Avionics:
-    - Getting started: avionics/index.md
+    - avionics/index.md
     - Cube: avionics/cube.md
     - Mission Planner: avionics/missionplanner.md
     - PyMAVLink: avionics/pymavlink.md
