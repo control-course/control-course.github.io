@@ -1,4 +1,5 @@
 site_name: 'AVDASI 2 docs'
+site_url: https://avdai2.github.io/docs
 theme: 
   name: material
   logo: assets/logo.png
@@ -38,10 +39,10 @@ theme:
   - navigation.footer
   language: en
 plugins:
-  - search
-  - literate-nav:
-       nav_file: index.md
-       implicit_index: true
+ # - search
+ # - literate-nav:
+ #      nav_file: index.md
+ #      implicit_index: true
   - glightbox
   - git-revision-date-localized:
       fallback_to_build_date: true
@@ -77,3 +78,15 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/UoBFlightLab
 
+nav:
+  - Home: index.md
+  - Getting started:
+    - stepbystep.md
+    - Cube: cube.md
+    - Mission Planner: missionplanner.md
+    - PyMAVLink: pymavlink.md
+    - Wifi: wifi.md
+    - RC: rc.md
+    - I2C & LUA: i2clua.md
+    - Data Logging: datalogging.md
+    - Example Code: examplecode.md
