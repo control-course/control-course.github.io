@@ -81,6 +81,7 @@ extra:
 nav:
   - Home: index.md
   - Avionics:
+    - avionics/index.md
     - Getting started: avionics/stepbystep.md
     - Cube: avionics/cube.md
     - Mission Planner: avionics/missionplanner.md
