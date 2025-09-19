@@ -81,8 +81,7 @@ extra:
 nav:
   - Home: index.md
   - Avionics:
-    - avionics/index.md
-    - Getting started: avionics/stepbystep.md
+    - Getting started: avionics/index.md
     - Cube: avionics/cube.md
     - Mission Planner: avionics/missionplanner.md
     - PyMAVLink: avionics/pymavlink.md
