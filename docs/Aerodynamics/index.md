@@ -1,3 +1,3 @@
 # Aerodynamics
 
-Example homeage
+Nothing here - see Bb/SharePoint.

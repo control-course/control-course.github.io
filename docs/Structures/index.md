@@ -1,3 +1,3 @@
 # Structures
 
-Example homepage
+Nothing here - see Bb/SharePoint.
