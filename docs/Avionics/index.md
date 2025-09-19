@@ -1,4 +1,4 @@
-# Avionics Guidelines
+# START HERE
 
 The goal of this section is to lay out a minimum viable product for the avionics portion of the AVDASI 2 course. Hopefully a clear baseline is established for a test-ready avionics system.
 
