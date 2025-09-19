@@ -1,8 +1,10 @@
 # START HERE
 
-The goal of this section is to lay out a minimum viable product for the avionics portion of the AVDASI 2 course. Hopefully a clear baseline is established for a test-ready avionics system.
+!!! abstract
+These docs take you from zero to a minimum viable product that just about meets the Avionics criterial in the requirements spec, allowing students to take things from there in any direction that they wish.
 
-Most links are to external open-source resources from which you should be able to get creative and implement creative solutions to fulfill the requirements of the course.
+!!! note
+Many links are to external open-source resources that you should follow - these aren't duplicated here because 
 
 !!! tip "When in doubt consult the [ardupilot.org](ardupilot.org) website."
 
