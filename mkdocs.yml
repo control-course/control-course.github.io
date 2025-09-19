@@ -79,14 +79,14 @@ extra:
       link: https://github.com/UoBFlightLab
 
 nav:
-  - Home: index.md
-  - Getting started:
-    - stepbystep.md
-    - Cube: cube.md
-    - Mission Planner: missionplanner.md
-    - PyMAVLink: pymavlink.md
-    - Wifi: wifi.md
-    - RC: rc.md
-    - I2C & LUA: i2clua.md
-    - Data Logging: datalogging.md
-    - Example Code: examplecode.md
+  - Home: index
+  - Avionics:
+    - Getting started: avionics/stepbystep
+    - Cube: avionics/cube
+    - Mission Planner: avionics/missionplanner
+    - PyMAVLink: avionics/pymavlink
+    - Wifi: avionics/wifi
+    - RC: avionics/rc
+    - I2C & LUA: avionics/i2clua
+    - Data Logging: avionics/datalogging
+    - Example Code: avionics/examplecode

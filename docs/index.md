@@ -8,21 +8,4 @@ It's hosted on the [AVDASI 2 GitHub org](https://github.com/AVDASI2), and uses [
 
 Anyone can [fork and pull request](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) changes to the docs which will be reviewed by admins and published. 
 
-If you want to trial stuff locally before pull requesting just clone the (original or forked) repo and do:
-
-```bash
-pip install mkdocs-material mkdocs-implicit-index
-mkdocs serve
-```
-
-Then open [http://127.0.0.1:8000](http://127.0.0.1:8000).
-
-## Navigation structure
-
-This MkDocs is configured to use [mkdocs-literate-nav](https://oprypin.github.io/mkdocs-literate-nav/) to pull nav and page ordering from a list in _index.md_ within each folder, like this:
-
-- [Avionics](Avionics/)
-- [Aerodynamics](Aerodynamics/)
-- [Structures](Structures/)
-
 [^1]: Aerospace Vehicle Design And Systems Integration
