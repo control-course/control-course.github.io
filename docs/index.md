@@ -1,4 +1,4 @@
-# AVDASI 2 docs
+# Homepage
 
 This site contains general documentation for the AVDASI 2[^1] design, build, and test unit. It's aimed at students on the unit, but we're publishing it openly in case it's useful to others. If you use it, [we'd love to hear about it](mailto:AVDASI2@bristol.ac.uk).
 
