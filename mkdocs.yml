@@ -20,7 +20,7 @@ theme:
   - navigation.search.highlight
   - navigation.search.suggestions
   - navigation.search.suggestions.highlight
-  - navigation.tabs
+  #- navigation.tabs
   - navigation.sections
   - navigation.indexes
   - content.tabs.link
@@ -47,8 +47,8 @@ plugins:
  #      nav_file: index.md
  #      implicit_index: true
   - glightbox
-  - git-revision-date-localized:
-      fallback_to_build_date: true
+ # - git-revision-date-localized:
+ #     fallback_to_build_date: true
 markdown_extensions:
   - codehilite
   - footnotes
@@ -74,6 +74,9 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 extra_css:
   - stylesheets/extra.css
 extra:
@@ -85,14 +88,16 @@ nav:
   - Home: index.md
   - Avionics:
     - avionics/index.md
-    - Step-by-step MWE:
-      - stepbystep/index.md
-      - 1. Cube: stepbystep/1-cube.md
-      - 2. Mission Planner: stepbystep/2-missionplanner.md
-      - 3. Telemetry: stepbystep/3-telemetry.md
-      - 4. Radio control: stepbystep/4-rc.md
-      - 5. Data logging: stepbystep/5-datalog.md
-      - 6. PyMAVLink: stepbystep/6-pymavlink.md
-      - 7. I2C: stepbystep/7-i2c.md
-      - 8. Luascript: stepbystep/8-lua.md
+    - Step-by-step guide:
+      - avionics/stepbystep/index.md
+      - 00. Kit: avionics/stepbystep/00-kit.md
+      - 01. Cube: avionics/stepbystep/01-cube.md
+      - 02. Mission Planner: avionics/stepbystep/02-missionplanner.md
+      - 03. Servos: avionics/stepbystep/03-servos.md
+      - 04. Telemetry: avionics/stepbystep/04-telemetry.md
+      - 05. Radio control: avionics/stepbystep/05-rc.md
+      - 06. Data logging: avionics/stepbystep/06-datalog.md
+      - 07. PyMAVLink: avionics/stepbystep/07-pymavlink.md
+      - 08. I2C: avionics/stepbystep/08-i2c.md
+      - 09. Luascript: avionics/stepbystep/09-lua.md
     - Example Code: avionics/examplecode.md

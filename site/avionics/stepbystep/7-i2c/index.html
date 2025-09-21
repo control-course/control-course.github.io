@@ -5,24 +5,24 @@
       
       
       
-        <link rel="canonical" href="https://avdai2.github.io/docs/structures/">
+        <link rel="canonical" href="https://avdai2.github.io/docs/avionics/stepbystep/7-i2c/">
       
       
       
       
-      <link rel="icon" href="../assets/logo.png">
+      <link rel="icon" href="../../../assets/logo.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.45">
     
     
       
-        <title>Structures - AVDASI 2 docs</title>
+        <title>I2C &amp; LUA - AVDASI 2 docs</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0253249f.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -41,16 +41,16 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+  <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -79,7 +79,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#structures" class="md-skip">
+        <a href="#i2c-lua" class="md-skip">
           Skip to content
         </a>
       
@@ -93,9 +93,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="AVDASI 2 docs" class="md-header__button md-logo" aria-label="AVDASI 2 docs" data-md-component="logo">
+    <a href="../../.." title="AVDASI 2 docs" class="md-header__button md-logo" aria-label="AVDASI 2 docs" data-md-component="logo">
       
-  <img src="../assets/logo.png" alt="logo">
+  <img src="../../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Structures
+              I2C &amp; LUA
             
           </span>
         </div>
@@ -170,7 +170,7 @@
   
   
     <li class="md-tabs__item">
-      <a href=".." class="md-tabs__link">
+      <a href="../../.." class="md-tabs__link">
         
   
     
@@ -189,7 +189,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../avionics/" class="md-tabs__link">
+        <a href="../../" class="md-tabs__link">
           
   
     
@@ -224,9 +224,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="AVDASI 2 docs" class="md-nav__button md-logo" aria-label="AVDASI 2 docs" data-md-component="logo">
+    <a href="../../.." title="AVDASI 2 docs" class="md-nav__button md-logo" aria-label="AVDASI 2 docs" data-md-component="logo">
       
-  <img src="../assets/logo.png" alt="logo">
+  <img src="../../../assets/logo.png" alt="logo">
 
     </a>
     AVDASI 2 docs
@@ -241,7 +241,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -288,7 +288,7 @@
           
           
           <div class="md-nav__link md-nav__container">
-            <a href="../avionics/" class="md-nav__link ">
+            <a href="../../" class="md-nav__link ">
               
   
   <span class="md-ellipsis">
@@ -381,7 +381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stepbystep/index.md" class="md-nav__link">
+      <a href="../../../stepbystep/index.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -402,7 +402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stepbystep/1-cube.md" class="md-nav__link">
+      <a href="../../../stepbystep/1-cube.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -423,7 +423,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stepbystep/2-missionplanner.md" class="md-nav__link">
+      <a href="../../../stepbystep/2-missionplanner.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -444,7 +444,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stepbystep/3-telemetry.md" class="md-nav__link">
+      <a href="../../../stepbystep/3-telemetry.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -465,7 +465,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stepbystep/4-rc.md" class="md-nav__link">
+      <a href="../../../stepbystep/4-rc.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -486,7 +486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stepbystep/5-datalog.md" class="md-nav__link">
+      <a href="../../../stepbystep/5-datalog.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -507,7 +507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stepbystep/6-pymavlink.md" class="md-nav__link">
+      <a href="../../../stepbystep/6-pymavlink.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -528,7 +528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stepbystep/7-i2c.md" class="md-nav__link">
+      <a href="../../../stepbystep/7-i2c.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -549,7 +549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../stepbystep/8-lua.md" class="md-nav__link">
+      <a href="../../../stepbystep/8-lua.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -578,7 +578,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../avionics/examplecode/" class="md-nav__link">
+      <a href="../../examplecode/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -619,6 +619,41 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wiring-of-the-i2c-bus" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wiring of the I2C bus
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#enabling-scirpting-on-the-cubepilot" class="md-nav__link">
+    <span class="md-ellipsis">
+      Enabling scirpting on the CubePilot
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-and-using-i2c-with-lua-scripts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up and using I2C with LUA scripts
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -632,8 +667,45 @@
                   
 
 
-<h1 id="structures">Structures<a class="headerlink" href="#structures" title="Permanent link">¶</a></h1>
-<p>Nothing here - see Bb/SharePoint.</p>
+<h1 id="i2c-lua">I2C &amp; LUA<a class="headerlink" href="#i2c-lua" title="Permanent link">¶</a></h1>
+<p>The Cube supports I2C communication, allowing you to connect a wide range of external sensors like airspeed sensors, magnetometers, and rangefinders using a shared two-wire interface. I²2 devices must be correctly addressed and powered, with care taken to avoid address conflicts. </p>
+<div class="admonition info">
+<p class="admonition-title">I2C (Inter-Integrated Circuit) is a two-wire communication protocol that allows multiple digital devices to communicate over a shared bus.</p>
+<p>It’s useful because it reduces wiring complexity and enables efficient communication between sensors, microcontrollers, and other peripherals.</p>
+</div>
+<p>The Cube also supports Lua scripting (via ArduPilot), enabling onboard automation such as custom failsafes, LED behavior, telemetry filtering, or mission logic without requiring firmware modification. Lua is a lightweight, high-level scripting language designed for embedded systems, making it ideal for writing custom logic directly on the Cube.</p>
+<div class="admonition tip">
+<p class="admonition-title">Don't be scared of LUA!</p>
+<p>Its a strange programming language but needs to be used as its the only way to write onboard code for the Cube.</p>
+<p>You'll get used to it don't worry.</p>
+</div>
+<p>Ardupilot specific LUA documentation: <a href="https://github.com/ArduPilot/ardupilot/blob/master/libraries/AP_Scripting/docs/docs.lua">LUA docs (github.com/ArduPilot)</a></p>
+<p>Ardupilot scripting support page: <a href="https://ardupilot.org/copter/docs/common-lua-scripts.html">Common LUA scripts (ardupilot.com)</a></p>
+<p>I2C documentation: <a href="https://www.nxp.com/docs/en/user-guide/UM10204.pdf">I2C-bus specification and user manual (nxp.com)</a></p>
+<p>This part of the document will provide basic information on how to set up I2C from both the hardware (wiring) and software side (through LUA scripts; see <a href="Example-code.md#I2C-lua">I2C.lua</a> for further help).</p>
+<h2 id="wiring-of-the-i2c-bus">Wiring of the I2C bus<a class="headerlink" href="#wiring-of-the-i2c-bus" title="Permanent link">¶</a></h2>
+<p>An I2C serial bus uses two wires (not counting VCC and neutral): SCL – clock &amp; SDA – data. Being a multi-master/multi-slave, half-duplex protocol, multiple controllers and devices can be connected to the same bus, but only one can transmit at a time.</p>
+<p>The wiring of the serial bus itself is straightforward: connect the SCL line to the SCL pins and the SDA line to the SDA pins of all devices on the bus, as seen in Figure 1. <strong>It is very important, however, that both the SDA and SCL lines require pull-up resistors</strong> connected to the logical high voltage of the selected microcontroller that will pull the line high when needed. There is a complex way of sizing the resistance of these resistors with high and low resistances both having pros and cons, but generally 4.7 kΩ is perfectly suitable for this kind of application. </p>
+<p>If the Cube is directly used as the master, then there is no need for dedicated external pull-up resistors as there are built-in ones in the flight controller.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="assets/I2C-bus.png" data-desc-position="bottom"><img alt="Mock-up of an I2C serial bus" src="assets/I2C-bus.png"></a>
+Mock-up of an I2C serial bus. Image credit: https://learn.sparkfun.com/tutorials/i2c/all </p>
+<h2 id="enabling-scirpting-on-the-cubepilot">Enabling scirpting on the CubePilot<a class="headerlink" href="#enabling-scirpting-on-the-cubepilot" title="Permanent link">¶</a></h2>
+<p>Before LUA scripts can be executed onboard the flight controller, the scripting feature must be enabled using the parameters of the Cube. Using Mission Planner (or any other similar GS program), locate the <code>SCR_ENABLE</code> parameter and set it to <code>1</code> before rebooting the Cube. A new folder should appear in the <code>APM</code> folder named <code>scripts</code>; if it doesn’t, it needs to be manually created.</p>
+<p>After this is done, any LUA code uploaded into this folder will be automatically executed when the Cube powered on.</p>
+<h2 id="setting-up-and-using-i2c-with-lua-scripts">Setting up and using I2C with LUA scripts<a class="headerlink" href="#setting-up-and-using-i2c-with-lua-scripts" title="Permanent link">¶</a></h2>
+<p>This part tries to explain the basic process of setting up and reading data from an I2C bus. To help understanding, example codes are provided.</p>
+<p>The first thing that must be done when working with I2C is to take note of the address of the device that is to be used. To set up a device on the I2C bus, LUA’s built-in i2c: module is used. For example, the following line 
+</p><div class="highlight"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="kd">local</span> <span class="n">sensor</span> <span class="o">=</span> <span class="n">i2c</span><span class="p">:</span><span class="n">get_device</span><span class="p">(</span><span class="n">bus</span><span class="p">,</span> <span class="n">ADDR</span><span class="p">)</span>
+</code></pre></div></td></tr></tbody></table></div>
+will create a variable named sensor as an I2C device on bus <code>bus</code> (most likely will be <code>0</code> on the Cube) and with I2C address <code>ADDR</code>.<p></p>
+<p>To read data from a specific register from a device the <code>&lt;device_var&gt;:read_registers(REG, &lt;int&gt;)</code> syntax can be used. With the above example:
+</p><div class="highlight"><table class="highlighttable"><tbody><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">sensor</span><span class="p">:</span><span class="n">read_registers</span><span class="p">(</span><span class="n">REG</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</code></pre></div></td></tr></tbody></table></div>
+will read two bytes of data, starting from sensor’s register with address <code>REG</code>.<p></p>
+<p>The data read from the registers will come in the shape of an array of bites and need to be broken up into separate binary integers. This is done differently depending on the device’s endianness which must be found from the documentation. Figure 2 helps show the difference between little- and big-endian systems. This only changes the order of the bites transferred but must accounted for to get the data accurately.</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="assets/endiannes.png" data-desc-position="bottom"><img alt="Endianness in a two-byte system" src="assets/endiannes.png"></a></p>
+<p>Endianness in a two-byte system. Image credit: https://www.allaboutcircuits.com/technical-articles/big-endian-little-endian-endianness-byte-arrangement-digital-systems/ </p>
+<p>The example code <a href="Example-code.md#I2C-lua">I2C.lua</a> will showcase the basic bit operations that will help extract the data from the bit array the data was transmitted in in both big- and little-endian systems. </p>
 
 
 
@@ -701,10 +773,10 @@
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tracking", "navigation.instant", "navigation.search", "navigation.search.highlight", "navigation.search.suggestions", "navigation.search.suggestions.highlight", "navigation.tabs", "navigation.sections", "navigation.indexes", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.expand", "content.code.highlight", "content.code.tabs", "content.code.toggle", "content.code.wrap", "content.code.include", "content.code.include.highlight", "content.code.include.tabs", "content.code.include.toggle", "content.code.include.wrap", "content.code.include.tabs", "navigation.instant.progress", "navigation.instant.preview", "navigation.footer"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tracking", "navigation.instant", "navigation.search", "navigation.search.highlight", "navigation.search.suggestions", "navigation.search.suggestions.highlight", "navigation.tabs", "navigation.sections", "navigation.indexes", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.expand", "content.code.highlight", "content.code.tabs", "content.code.toggle", "content.code.wrap", "content.code.include", "content.code.include.highlight", "content.code.include.tabs", "content.code.include.toggle", "content.code.include.wrap", "content.code.include.tabs", "navigation.instant.progress", "navigation.instant.preview", "navigation.footer"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
       
     
   
