@@ -6,7 +6,7 @@
 
 ## Getting started
 
-If you're just starting out, head to the [step-by-step guide](stepbystep).
+If you're just starting out, follow the [step-by-step guide](stepbystep) to get to a minimal working example system.
 
 !!! note
 

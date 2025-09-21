@@ -85,11 +85,14 @@ nav:
   - Home: index.md
   - Avionics:
     - avionics/index.md
-    - Cube: avionics/cube.md
-    - Mission Planner: avionics/missionplanner.md
-    - PyMAVLink: avionics/pymavlink.md
-    - Wifi: avionics/wifi.md
-    - RC: avionics/rc.md
-    - I2C & LUA: avionics/i2clua.md
-    - Data Logging: avionics/datalogging.md
+    - Step-by-step MWE:
+      - stepbystep/index.md
+      - 1. Cube: stepbystep/1-cube.md
+      - 2. Mission Planner: stepbystep/2-missionplanner.md
+      - 3. Telemetry: stepbystep/3-telemetry.md
+      - 4. Radio control: stepbystep/4-rc.md
+      - 5. Data logging: stepbystep/5-datalog.md
+      - 6. PyMAVLink: stepbystep/6-pymavlink.md
+      - 7. I2C: stepbystep/7-i2c.md
+      - 8. Luascript: stepbystep/8-lua.md
     - Example Code: avionics/examplecode.md
