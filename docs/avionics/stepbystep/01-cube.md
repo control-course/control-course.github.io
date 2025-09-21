@@ -1,4 +1,8 @@
-# Cube Information
+# Cube Orange+ Autopilot
+
+The University's Flight Lab uses the CubePilot Cube Orange+ as its standard research-grade flight controller. 
+
+https://docs.cubepilot.org/user-guides/autopilot/the-cube
 
 The Cube Orange+ is a high-performance open-source flight controller designed for professional UAVs and robotics.
 It simplifies integration with ArduPilot, featuring built-in telemetry ports and onboard SD card logging for mission data.
