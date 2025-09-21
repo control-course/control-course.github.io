@@ -20,3 +20,7 @@ This command takes 7 parameters:
     Run `pip --upgrade --force-reinstall pymavlink` in an administrator command prompt
 
     
+
+[Servo Movement documentation (ardupilot.org)](https://ardupilot.org/dev/docs/mavlink-move-servo.html)
+
+[MAVLink common messages (mavlink.io)](https://mavlink.io/en/messages/common.html)

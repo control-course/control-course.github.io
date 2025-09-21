@@ -2,7 +2,14 @@
 
 This site contains general documentation for the AVDASI 2[^1] design, build, and test unit. It's aimed at students on the unit, but we're publishing it openly in case it's useful to others. If you use it, [we'd love to hear about it](mailto:AVDASI2@bristol.ac.uk).
 
-It's hosted on the [AVDASI 2 GitHub org](https://github.com/AVDASI2), and uses [MkDocs](https://www.mkdocs.org) auto-compiled via a GitHub Action. Code from repos like [AVDASI 2 Example_Code](https://github.com/AVDASI2/Example_Code) can be auto-synced to the docs so code snippets can be displayed and will update after every new push.
+As of the current teaching year, this site is largely for the [Avionics](avionics/index/md) subdiscipline. See the unit Sharepoint for other resources.
+
+## Site info
+
+This site is part of the [AVDASI 2 GitHub org](https://github.com/AVDASI2), which contains a number of useful repositories. These docs pages are formatted using [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/).
+
+[Avionics resources :material-chip:](avionics/index.md){: .md-button .md-button--primary }
+
 
 !!! note
 

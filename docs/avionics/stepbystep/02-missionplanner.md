@@ -1,12 +1,20 @@
 # Mission Planner
 
-Mission planner is the software used to communicate and control the cube. Your code should replace Mission Planner and provide the same basic functionality. Mission planner is still useful to use for testing and has numerous vital features.
+Mission planner is an open-source the software used to communicate and control the cube. Your code should replace Mission Planner and provide the same basic functionality. Mission planner is still useful to use for testing and has numerous vital features.
 
 [Installation info (ardupilot.org)](https://ardupilot.org/planner/docs/mission-planner-installation.html)
 
 [Mission Planner overview (ardupilot.org)](https://ardupilot.org/planner/docs/mission-planner-overview.html)
 
 ## Connecting
+
+
+For this first stage we'll power the Cube from your computer's USB port.
+
+!!! warning "A really important note on power"
+    **Do not plug anything else into the Cube if you're just powering from USB**. Your laptop's USB port is limited in the current it can supply, and servos can draw significant current when stalled (more on this in later steps). In short, if you plug stuff in and do the wrong thing you can at best fry the Cube (putting your Team, Division, and Company's success at risk), and at worst fry your laptop (possibly putting your degree and life at risk - back things up, kids!).
+
+
 Mission Planner can be connected to the Cube over Wifi and USB. If connecting through USB, <u>**make sure to use the buzzer**</u>; do not plug the cable directly into the Cube. In mission planner, on the top right of the window, you will see two selection boxes and a `Connect` button. If you know which `COM` terminal you plugged the USB into, select it, but there is an `AUTO` function too. 
 
 !!! tip "Wait until the cube buzzes before clicking connect."

@@ -1,3 +1,7 @@
+---
+icon: material/file-code
+---
+
 # Example Code
 
 A series of scripts were written to show a minimum viable ground station. Keep in mind your code will need to be better than this, you can’t just copy it and hope for the best. It does provide a baseline to build off of and an example of how to meet the basic functionality needed.

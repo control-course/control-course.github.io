@@ -1,3 +1,7 @@
+---
+icon: material/airplane-takeoff
+---
+
 # Step-by-step guide
 
 This guide will take you through to a 'minimum working example' (MWE) that meets the relevant criteria in the requirements specification. You should use this for learning and familiarisation, and build upon this to implement your own solution.
@@ -10,6 +14,7 @@ There are many routes to meeting the requirements, those presented here are thos
 
     * :material-step-forward: Follow this link as part of the current step, then come back to this page to continue.
     * :material-information: This link is for reference, you don't need to follow it right now.
+    * (no icon): assume it's just for reference unless it's obviously essential, then let us know so we can fix the docs.
 
 
 !!! note

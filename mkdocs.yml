@@ -90,14 +90,17 @@ nav:
     - avionics/index.md
     - Step-by-step guide:
       - avionics/stepbystep/index.md
-      - 00. Kit: avionics/stepbystep/00-kit.md
-      - 01. Cube: avionics/stepbystep/01-cube.md
-      - 02. Mission Planner: avionics/stepbystep/02-missionplanner.md
-      - 03. Servos: avionics/stepbystep/03-servos.md
-      - 04. Telemetry: avionics/stepbystep/04-telemetry.md
-      - 05. Radio control: avionics/stepbystep/05-rc.md
-      - 06. Data logging: avionics/stepbystep/06-datalog.md
-      - 07. PyMAVLink: avionics/stepbystep/07-pymavlink.md
-      - 08. I2C: avionics/stepbystep/08-i2c.md
-      - 09. Luascript: avionics/stepbystep/09-lua.md
+      - 00. Kit:              avionics/stepbystep/00-kit.md
+      - 01. Cube:             avionics/stepbystep/01-cube.md
+      - 02. Mission Planner:  avionics/stepbystep/02-missionplanner.md
+      #- 03. Power:            avionics/stepbystep/03-power.md
+      #- 04. Servos:           avionics/stepbystep/04-servos.md
+      #- 05. Telemetry:        avionics/stepbystep/05-telemetry.md
+      #- 06. Radio control:    avionics/stepbystep/06-rc.md
+      #- 07. Data logging:     avionics/stepbystep/07-datalog.md
+      #- 08. PyMAVLink:        avionics/stepbystep/08-pymavlink.md
+      #- 09. I2C:              avionics/stepbystep/09-i2c.md
+      #- 10. Luascript:        avionics/stepbystep/10-lua.md
+      #- 99. Summary:          avionics/stepbystep/99-summary.md
     - Example Code: avionics/examplecode.md
+    - Expert links: avionics/links.md

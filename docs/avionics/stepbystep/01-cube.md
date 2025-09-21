@@ -1,59 +1,37 @@
 # Cube Orange+ Autopilot
 
-The University's Flight Lab uses the CubePilot Cube Orange+ as its standard research-grade flight controller. 
+The University's [Flight Lab](http://flightlab.bristol.ac.uk) uses the [:material-information:CubePilot Cube Orange+](https://docs.cubepilot.org/user-guides/autopilot/the-cube) as its standard research-grade flight controller. We'll just call it "the Cube".
 
-https://docs.cubepilot.org/user-guides/autopilot/the-cube
+The Cube is a high-performance open-source flight controller designed for professional UAVs and robotics. It is designed to run [:material-information:Ardupilot](https://ardupilot.org) open-source flight control software. There are a wide range of other open and closed options, but Ardupilot is well-established, well-supported, and flexible.
 
-The Cube Orange+ is a high-performance open-source flight controller designed for professional UAVs and robotics.
-It simplifies integration with ArduPilot, featuring built-in telemetry ports and onboard SD card logging for mission data.
+!!! warning
+    The Cube is one of the more expensive components of your UAVs, sometimes with long lead-times for replacements. Please take care of them and be sure to follow instructions below, particularly regarding voltages, servo current, etc.
 
-!!! info "You will have the unique opportunity to play with one as the Cube will act as your main flight computer."
+We'll be using Ardupilot's documentation for a lot of our setup. They have a nice overview page - here's your first mandatory external link to go and check out. 
 
-![Cube Diagram](../assets/cube-diagram.png)
-![Cube](../assets/cube.png)
+!!! info "Reminder - link labels"
+    Some of the steps require you to follow instructions on external sites, but there are also links included for wider reference. These are labelled with icons:
 
-Image Credit: Ardupilot
-
-!!! warning "The cube is a very expensive research grade flight computer so please don’t blow it up"
+    * :material-step-forward: Follow this link as part of the current step, then come back to this page to continue.
+    * :material-information: This link is for reference, you don't need to follow it right now.
+    * (no icon): assume it's just for reference unless it's obviously essential, then let us know so we can fix the docs.
     
-    Always use the buzzer adapter when connecting over USB and the stop button when using the power source.  
+Go and take a look, feel free to click around, but **dont' do any hardware stuff until you come back and read more instructions here**.
 
-    Never plug directly into USB.  
+* [:material-step-forward:Ardupilot - Cube Orange+ overview](https://ardupilot.org/plane/docs/common-thecubeorange-overview.html).
 
-    Unplug if you see voltage/current spikes or if the buzzer starts making noise.  
+Ardupilot is open-source flight control software that runs on a wide range of hardware. The Cube is open hardware from one provider, and they have their own documentation pages that should be considered the authoritative source for hardware documentation. Go and check out the Cube Orange+'s specification pages. You don't need to remember these, but I want you to know where they are. **Don't do any hardware stuff yet!**.
+
+* [:material-step-forward:CubePilot - key specifications](https://docs.cubepilot.org/user-guides/autopilot/the-cube/introduction/specifications)
+* [:material-step-forward:CubePilot - interface ports](https://docs.cubepilot.org/user-guides/autopilot/the-cube/introduction/interface-specifications).
+
+Right, we're almost at the hands-on bit. The actual 'Cube' is the beautiful orange bit, which has a high-density 80-pin connector on its base (don't try to pull it off to see, there are some screws through the bottom). The 'carrier board' is the black part which breaks out pins from the high-density connector into something a bit more useable. Your kit should contain several wiring harnesses that connect to the ports on the carrier board.
+
+!!! info "Cube wiring and connectors"
+    The top carrier board connectors are JST-GH 1.25mm-pitch, and the ones on the side are 2.54mm (0.1") Harwin M20 (often referred to as 'DuPont', or 'servo' connectors).
     
-    If you see blue smoke, it's too late.
+    There are other very similar, often seemingly compatible connector systems, but there are subtle differences that make mixing them non-ideal, particularly for safety-critical applications (in fact, for proper safety-critical applications you wouldn't use these, you'd pick a locking connector). Matt Millman has some great pages on [:material-information:connector naming](https://www.mattmillman.com/why-do-we-call-these-dupont-connectors/) and [:material-information:proper crimping](https://www.mattmillman.com/info/crimpconnectors/dupont-and-dupont-connectors/) (note we have the fancy official JST and Harwin tools in the lab), and [:material-information:even more on crimping](https://www.mattmillman.com/info/crimpconnectors/).
 
-[Cube User Manual (cubepilot.org)](https://docs.cubepilot.org/user-guides/autopilot/the-cube-user-manual)
+    You have all the wiring you need for the minimum working example in your kits. When you get past that you might want to create custom harnesses - see the unit team for instructions, there's some technique and particularly the tiny JST-GH crimps can be fiddly.
 
-[Servo Movement documentation (ardupilot.org)](https://ardupilot.org/dev/docs/mavlink-move-servo.html)
-
-[MAVLink common messages (mavlink.io)](https://mavlink.io/en/messages/common.html)
-
-## Requirements
-
-Year on year the requirements may vary but the basic bits stay the same. Make sure the check the Design Specification and Deliverables documents for specifics.
-
-The student-built avionics should be able to:
-
-- Move the control surfaces
-- Talk to the cube via Wifi
-- Talk to the cube via Radio
-- Log the generated data
-- Sense flap angle
-- Sense pressure
-- Switch between cube modes and arming states
-
-## Cube Setup
-
-|   Port       | What to plug in |
-|--------------|-----------------|
-| Power 1      | Power plug      |
-| USB          | USB dongle      |
-| Telem 1      | Wifi chip       |
-| RC in        | RC transmitter  |
-| AUX OUT 1    | Power pin       |
-| MAIN OUT 1-8 | Servo pins      |
-| I2C 2        | I2C sensor      |
-
-Add image of full system.
+Ok, it's time to get hands-on. Head to the next step using the links below or to the left.
