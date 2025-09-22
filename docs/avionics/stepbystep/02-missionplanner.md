@@ -2,10 +2,10 @@
 
 Mission Planner is a full-featured ground station application for the ArduPilot open source autopilot project. We will use it to set up the Cube and for initial learning and operation.
 
-Take a look at Ardupilot's overview page, then install Mission Planner.
-
 !!! info
     Mission Planner requires Windows - I've had some success running it via [Whisky](https://getwhisky.app) on my Mac, but the uni cannot offer support for this approach and I would advise against it for flight (and wind tunnel) operations.
+
+Take a look at Ardupilot's overview page, then install Mission Planner.
 
 * [:material-step-forward:Ardupilot - Mission Planner Overview](https://ardupilot.org/planner/docs/mission-planner-overview.html)
 * [:material-step-forward:Ardupilot - Installing Mission Planner](https://ardupilot.org/planner/docs/mission-planner-installation.html)
@@ -17,18 +17,13 @@ For this first stage we'll power the Cube from your computer's USB port.
 !!! warning "A really important note on power"
     **Do not plug anything else into the Cube if you're just powering from USB**. Your laptop's USB port is limited in the current it can supply, and servos can draw significant current when stalled (more on this in later steps). In short, if you plug stuff in and do the wrong thing you can at best **fry the Cube** (putting your Team, Division, and Company's success at risk), and at worst **fry your laptop** (possibly putting your degree and life at risk - back things up, kids!).
 
+!!! warning "Another important note on connectors"
+    The micro-USB connector on the side of the Cube is notoriously fragile. To prevent *expensive* damage, please use the USB socket/buzzer assembly supplied to connect (these are much cheaper to replace).
 
-Mission Planner can be connected to the Cube over Wifi and USB. If connecting through USB, <u>**make sure to use the buzzer**</u>; do not plug the cable directly into the Cube. In mission planner, on the top right of the window, you will see two selection boxes and a `Connect` button. If you know which `COM` terminal you plugged the USB into, select it, but there is an `AUTO` function too. 
+Connect the USB/buzzer assembly to the carrier board's `USB` port. Follow the Ardupilot instructions, making sure you use that USB socket. When you are asked to select firmware, choose ArduPlane. Connect Mission Planner to the Autopilot and check things work as expected (ignore the parts about telemetry and multiple vehicles).
 
-!!! tip "Wait until the cube buzzes before clicking connect."
-
-![Connecting MP](assets/connect-MP.png)
-
-Image credit: Mission Planner
-
-Using the Wifi module is a bit different but simple. After setting up the Wifi chip (for more information see [Wifi](Wifi.md)), connect the chip to the Cube’s `Telem1/Telem2` port and your computer to the Wifi network. Select the `UDP` setting and hit connect.
-
-!!! tip "If not working, make sure you're still connected to the chip (and not Eduroam) and your GCS isn't connected to the cube"
+* [:material-step-forward:Ardupilot - Installing Firmware](https://ardupilot.org/planner/docs/common-loading-firmware-onto-pixhawk.html)
+* [:material-step-forward:Ardupilot - Connect Mission Planner to AutoPilot](https://ardupilot.org/planner/docs/common-connect-mission-planner-autopilot.html)
 
 ## Parameters
 
