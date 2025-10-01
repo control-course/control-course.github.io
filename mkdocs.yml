@@ -75,8 +75,8 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_css:
   - stylesheets/extra.css
 extra:
@@ -104,3 +104,5 @@ nav:
       #- 99. Summary:          avionics/stepbystep/99-summary.md
     - Example Code: avionics/examplecode.md
     - Expert links: avionics/links.md
+  - Mechanisms: 
+    - mechanisms/index.md
