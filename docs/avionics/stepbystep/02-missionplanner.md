@@ -10,6 +10,9 @@ Take a look at Ardupilot's overview page, then install Mission Planner.
 * [:material-step-forward:Ardupilot - Mission Planner Overview](https://ardupilot.org/planner/docs/mission-planner-overview.html)
 * [:material-step-forward:Ardupilot - Installing Mission Planner](https://ardupilot.org/planner/docs/mission-planner-installation.html)
 
+!!! info "Mission Planner/Altitude Angel"
+    Updated Sept 2025. Mission Planner now asks you to log in to Altitude Angel - you don't need to do this. Altitude Angel is a flight-restriction update service, which is handy for outdoor flying but their scope does not cover our wind tunnels.
+
 ## Connecting
 
 For this first stage we'll power the Cube from your computer's USB port.
