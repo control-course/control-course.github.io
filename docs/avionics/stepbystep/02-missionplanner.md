@@ -25,6 +25,10 @@ Connect the USB/buzzer assembly to the carrier board's `USB` port. Follow the Ar
 * [:material-step-forward:Ardupilot - Installing Firmware](https://ardupilot.org/planner/docs/common-loading-firmware-onto-pixhawk.html)
 * [:material-step-forward:Ardupilot - Connect Mission Planner to AutoPilot](https://ardupilot.org/planner/docs/common-connect-mission-planner-autopilot.html)
 
+!!! info "Ardupilot firmware confusion"
+    There are some parameters that don't get reset when you re-flash the same firmware. To do a full 'factory settings' reset the easiest way we've found is to flash a different firmware. We like making our UAVs think they're a submarine then re-flashing one of the airborne versions.
+
+
 ## Parameters
 
 In Mission Planner, a parameter is a configurable setting that tells the flight controller how to behave. Parameters control everything from flight modes, sensor settings, failsafes, and PID tuning, to things like which servo does what and how fast a drone should climb or descend.
