@@ -11,7 +11,7 @@ Take a look at Ardupilot's overview page, then install Mission Planner.
 * [:material-step-forward:Ardupilot - Installing Mission Planner](https://ardupilot.org/planner/docs/mission-planner-installation.html)
 
 !!! info "Mission Planner/Altitude Angel"
-    Updated Sept 2025. Mission Planner now asks you to log in to Altitude Angel - you don't need to do this. Altitude Angel is a flight-restriction update service, which is handy for outdoor flying but their scope does not cover our wind tunnels.
+    Updated Sept 2025. Mission Planner now prompts you to log in to Altitude Angel - you don't need to do this. Altitude Angel is a flight-restriction update service, which is handy for outdoor flying but their scope does not cover our wind tunnels.
 
 ## Connecting
 
@@ -27,6 +27,9 @@ Connect the USB/buzzer assembly to the carrier board's `USB` port. Follow the Ar
 
 * [:material-step-forward:Ardupilot - Installing Firmware](https://ardupilot.org/planner/docs/common-loading-firmware-onto-pixhawk.html)
 * [:material-step-forward:Ardupilot - Connect Mission Planner to AutoPilot](https://ardupilot.org/planner/docs/common-connect-mission-planner-autopilot.html)
+
+!!! info "CubeOrange+"
+    When uploading firmware, you are given a choice between "CubeOrange+" and "CubeOrange+ bdsht". Select "CubeOrange+" to upload firmware.
 
 !!! info "Ardupilot firmware"
     There are some parameters that don't get reset when you re-flash the same firmware. To do a full 'factory settings' reset the easiest way we've found is to flash a different firmware. We like making our UAVs think they're a submarine then re-re-flashing one of the airborne versions.
