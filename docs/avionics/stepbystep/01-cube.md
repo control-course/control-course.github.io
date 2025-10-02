@@ -16,7 +16,7 @@ We'll be using Ardupilot's documentation for a lot of our setup. They have a nic
     * :material-information: This link is for reference, you don't need to follow it right now.
     * (no icon): assume it's just for reference unless it's obviously essential, then let us know so we can fix the docs.
     
-Go and take a look, feel free to click around, but **dont' do any hardware stuff until you come back and read more instructions here**.
+Go and take a look, feel free to click around, but **don't do any hardware stuff until you come back and read more instructions here**.
 
 * [:material-step-forward:Ardupilot - Cube Orange+ overview](https://ardupilot.org/plane/docs/common-thecubeorange-overview.html).
 
@@ -25,7 +25,7 @@ Ardupilot is open-source flight control software that runs on a wide range of ha
 * [:material-step-forward:CubePilot - key specifications](https://docs.cubepilot.org/user-guides/autopilot/the-cube/introduction/specifications)
 * [:material-step-forward:CubePilot - interface ports](https://docs.cubepilot.org/user-guides/autopilot/the-cube/introduction/interface-specifications).
 
-Right, we're almost at the hands-on bit. The actual 'Cube' is the beautiful orange bit, which has a high-density 80-pin connector on its base (don't try to pull it off to see, there are some screws through the bottom). The 'carrier board' is the black part which breaks out pins from the high-density connector into something a bit more useable. Your kit should contain several wiring harnesses that connect to the ports on the carrier board.
+Right, we're almost at the hands-on bit. The actual 'Cube' is the beautiful orange bit, which has a high-density 80-pin connector on its base **(don't try to pull it off to see, there are some screws through the bottom)**. The 'carrier board' is the black part which breaks out pins from the high-density connector into something a bit more useable. Your kit should contain several wiring harnesses that connect to the ports on the carrier board.
 
 !!! info "Cube connectors"
     The data connectors on the top of the carrier board are 1.25mm-pitch [:material-information:JST-GH](https://www.jst.co.uk/productSeries.php?pid=11517&cat=30), the power connectors are 2mm-pitch [:material-information:Molex CLIK-Mate](https://www.molex.com/en-us/products/connectors/wire-to-board-connectors/clik-mate-connectors), and the servo pins the side are 2.54mm (0.1") Harwin M20 (often referred to as 'DuPont', or 'servo' connectors).
