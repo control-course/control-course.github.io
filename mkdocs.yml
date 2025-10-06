@@ -1,5 +1,5 @@
-site_name: 'AVDASI 2 docs'
-site_url: https://avdai2.github.io/docs
+site_name: 'Control course'
+site_url: https://control-course.github.io
 theme: 
   name: material
   logo: assets/logo.png
@@ -49,6 +49,8 @@ plugins:
   - glightbox
  # - git-revision-date-localized:
  #     fallback_to_build_date: true
+  - gen_nav:
+      enabled: true
 markdown_extensions:
   - codehilite
   - footnotes
@@ -79,28 +81,28 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 extra_css:
   - stylesheets/extra.css
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/UoBFlightLab
+# extra:
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/UoBFlightLab
 
-nav:
-  - Home: index.md
-  - Avionics:
-    - avionics/index.md
-    - Step-by-step guide:
-      - avionics/stepbystep/index.md
-      - 00. Kit:              avionics/stepbystep/00-kit.md
-      - 01. Cube:             avionics/stepbystep/01-cube.md
-      - 02. Mission Planner:  avionics/stepbystep/02-missionplanner.md
-      #- 03. Power:            avionics/stepbystep/03-power.md
-      #- 04. Servos:           avionics/stepbystep/04-servos.md
-      #- 05. Telemetry:        avionics/stepbystep/05-telemetry.md
-      #- 06. Radio control:    avionics/stepbystep/06-rc.md
-      #- 07. Data logging:     avionics/stepbystep/07-datalog.md
-      #- 08. PyMAVLink:        avionics/stepbystep/08-pymavlink.md
-      #- 09. I2C:              avionics/stepbystep/09-i2c.md
-      #- 10. Luascript:        avionics/stepbystep/10-lua.md
-      #- 99. Summary:          avionics/stepbystep/99-summary.md
-    - Example Code: avionics/examplecode.md
-    - Expert links: avionics/links.md
+# nav:
+#   - Home: index.md
+#   - Avionics:
+#     - avionics/index.md
+#     - Step-by-step guide:
+#       - avionics/stepbystep/index.md
+#       - 00. Kit:              avionics/stepbystep/00-kit.md
+#       - 01. Cube:             avionics/stepbystep/01-cube.md
+#       - 02. Mission Planner:  avionics/stepbystep/02-missionplanner.md
+#       #- 03. Power:            avionics/stepbystep/03-power.md
+#       #- 04. Servos:           avionics/stepbystep/04-servos.md
+#       #- 05. Telemetry:        avionics/stepbystep/05-telemetry.md
+#       #- 06. Radio control:    avionics/stepbystep/06-rc.md
+#       #- 07. Data logging:     avionics/stepbystep/07-datalog.md
+#       #- 08. PyMAVLink:        avionics/stepbystep/08-pymavlink.md
+#       #- 09. I2C:              avionics/stepbystep/09-i2c.md
+#       #- 10. Luascript:        avionics/stepbystep/10-lua.md
+#       #- 99. Summary:          avionics/stepbystep/99-summary.md
+#     - Example Code: avionics/examplecode.md
+#     - Expert links: avionics/links.md
